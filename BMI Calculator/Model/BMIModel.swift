@@ -45,11 +45,11 @@ struct BMIModel {
         var message: String
         
         if BMI >= 25 {
-            message = "Você está acima do peso, tente se exercitar mais";
+            message = "Você está acima do peso, tente se exercitar mais!";
         } else if BMI > 18.5 {
             message = "Você está com o peso ideal. Bom trabalho!";
         } else {
-            message =  "Você está abaixo do peso. Tente comer mais";
+            message =  "Você está abaixo do peso. Tente comer mais!";
         }
         
         return message
